@@ -1,0 +1,12 @@
+\documentclass{article}
+\usepackage[a4paper, left=10mm,right=10mm,top=15mm,bottom=15mm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[labelformat=empty]{caption}
+
+\newcommand\qrsize{0.33\textheight}
+\begin{document}
+\directlua{
+  dofile('gen_elems.lua')
+}
+\end{document}

@@ -1,0 +1,5 @@
+build/
+items/
+pdfgen/*
+!pdfgen/*.tex
+!pdfgen/*.lua
